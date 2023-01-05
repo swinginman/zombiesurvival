@@ -5,7 +5,6 @@ end
 local SKIN = {}
 
 SKIN.PrintName = "Zombie Survival Derma Skin"
-SKIN.Author = "William \"JetBoom\" Moodhe"
 SKIN.DermaVersion = 1
 
 SKIN.bg_color = Color(50, 50, 50, 255)

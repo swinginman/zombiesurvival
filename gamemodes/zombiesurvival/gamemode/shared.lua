@@ -1,29 +1,12 @@
 GM.Name		=	"Zombie Survival"
-GM.Author	=	"William \"JetBoom\" Moodhe"
-GM.Email	=	"williammoodhe@gmail.com"
-GM.Website	=	"http://www.noxiousnet.com"
+GM.Author	=	""
+GM.Email	=	""
+GM.Website	=	""
 
 -- No, adding a gun doesn't make your name worth being here.
 GM.Credits = {
-	{"William \"JetBoom\" Moodhe", "williammoodhe@gmail.com (www.noxiousnet.com)", "Creator / Programmer"},
-	{"11k", "tjd113@gmail.com", "Zombie view models"},
-	{"Eisiger", "k2deseve@gmail.com", "Zombie kill icons"},
-	{"Austin \"Little Nemo\" Killey", "austin_odyssey@yahoo.com", "Ambient music"},
-	{"Zombie Panic: Source", "http://www.zombiepanic.org/", "Melee weapon sounds"},
-	{"Samuel", "samuel_games@hotmail.com", "Board Kit models"},
-	{"Typhon", "lukas-tinel@hotmail.com", "Fear-o-meter textures"},
-	{"Benjy, The Darker One, Raox, Scott", "", "Code contributions"},
-
-	{"Mr. Darkness", "", "Russian translation"},
-	{"honsal", "", "Korean translation"},
-	{"rui_troia", "", "Portuguese translation"},
-	{"Shinyshark", "", "Dutch translation"},
-	{"Kradar", "", "Italian translation"},
-	{"Raptor", "", "German translation"},
-	{"The Special Duckling", "", "Danish translation"},
-	{"ptown, Dr. Broly", "", "Spanish translation"},
-
-	{"Anyone else on GitHub or who I've forgotten", "", "Various contributions"},
+	{"No credits for you jetboom", "Fuck you I'll do what I want", "Cry like a little baby"},
+	{"Adding a gun totally gives me the right to put my name here", "Sugma", "<3"},
 }
 
 if file.Exists(GM.FolderName.."/gamemode/maps/"..game.GetMap()..".lua", "LUA") then
@@ -73,7 +56,7 @@ include_library("ammoexpand")
 ----------------------
 
 GM.EndRound = false
-GM.StartingWorth = 100
+GM.StartingWorth = 200
 GM.ZombieVolunteers = {}
 
 team.SetUp(TEAM_ZOMBIE, "The Undead", Color(0, 255, 0, 255))

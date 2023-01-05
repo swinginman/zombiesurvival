@@ -24,7 +24,6 @@ function GM:OpenMainMenu()
 	local credittext = vgui.Create("DLabel", creditbar)
 	credittext:SetFont("ZSScoreBoardSubTitle")
 	credittext:SetTextColor(COLOR_LIGHTGRAY)
-	credittext:SetText("Zombie Survival (r"..self.REVISION..") - created by William \"JetBoom\" Moodhe")
 	credittext:SetContentAlignment(6)
 	credittext:Dock(FILL)
 

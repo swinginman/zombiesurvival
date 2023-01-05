@@ -1,4 +1,4 @@
-local SUPPORTER_MESSAGE = "JetBoom says: thank you for supporting my gamemodes!"
+local SUPPORTER_MESSAGE = "JetBoom says: I'm a little piss baby!"
 
 local CACHE = {
 	MaxSize = 128,
