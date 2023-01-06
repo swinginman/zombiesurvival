@@ -723,7 +723,7 @@ GM.SurvivalClips = 4 --2
 GM.ResupplyBoxCooldown = 60
 
 -- Put your unoriginal, 5MB Rob Zombie and Metallica music here.
-GM.LastHumanSound = Sound("zombiesurvival/lasthuman.ogg")
+GM.LastHumanSound = Sound("#zombiesurvival/lasthuman2.mp3")
 
 -- Sound played when humans all die.
 GM.AllLoseSound = Sound("zombiesurvival/music_lose.ogg")

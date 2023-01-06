@@ -783,7 +783,7 @@ function GM:PlayBeats(teamid, fear)
 	--if (LASTHUMAN or self:GetAllSigilsDestroyed()) and cv_ShouldPlayMusic:GetBool() then
 	if LASTHUMAN and cv_ShouldPlayMusic:GetBool() then
 		MySelf:EmitSound(self.LastHumanSound, 0, 100, self.BeatsVolume)
-		NextBeat = RealTime() + SoundDuration(self.LastHumanSound) - 0.025
+		NextBeat = RealTime() + self.SoundDuration[self.LastHumanSound]
 		return
 	end
 

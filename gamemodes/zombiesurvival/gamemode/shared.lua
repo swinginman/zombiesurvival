@@ -72,7 +72,7 @@ vector_tiny = Vector(0.001, 0.001, 0.001)
 GM.SoundDuration = {
 	["zombiesurvival/music_win.ogg"] = 33.149,
 	["zombiesurvival/music_lose.ogg"] = 45.714,
-	["zombiesurvival/lasthuman.ogg"] = 120.503,
+	["#zombiesurvival/lasthuman2.mp3"] = 165.0,
 
 	["zombiesurvival/beats/defaulthuman/1.ogg"] = 7.111,
 	["zombiesurvival/beats/defaulthuman/2.ogg"] = 7.111,
