@@ -34,6 +34,4 @@ hook.Add("InitPostEntityMap", "Adding", function()
 		ent:SetKeyValue("solid", "6")
 		ent:Spawn()
 	end
-
-	for _, ent in pairs(ents.FindByModel("models/props/cs_office/vending_machine.mdl")) do ent:Remove() end
 end)

@@ -59,6 +59,7 @@ function CLASS:PlayerFootstep(pl, vFootPos, iFoot, strSoundName, fVolume, pFilte
 end
 
 function CLASS:CalcMainActivity(pl, velocity)
+	pl:SetCollisionGroup(COLLISION_GROUP_WORLD)
 	if pl:OnGround() then
 		local wep = pl:GetActiveWeapon()
 		if wep:IsValid() and wep.IsPecking and wep:IsPecking() then
