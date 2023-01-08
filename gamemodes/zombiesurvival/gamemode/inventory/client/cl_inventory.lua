@@ -361,7 +361,7 @@ function GM:OpenInventory()
 
 	local invgrid = vgui.Create("DGrid", invListPanel)
 	invgrid:SetSize(invListPanel:GetWide() - sbar:GetWide(), invListPanel:GetTall())
-	invgrid:SetCols(5)
+	invgrid:SetCols(4)
 	invgrid:SetColWide((70 + (invgrid:GetWide() - 70*5) / 4) * screenscale)
 	invgrid:SetRowHeight(70 * screenscale)
 	frame.Grid = invgrid
