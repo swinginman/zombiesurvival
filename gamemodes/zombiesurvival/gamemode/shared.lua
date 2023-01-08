@@ -70,9 +70,9 @@ vector_tiny = Vector(0.001, 0.001, 0.001)
 
 -- ogg/mp3 still doesn't work with SoundDuration() function
 GM.SoundDuration = {
-	["zombiesurvival/music_win.ogg"] = 33.149,
+	["zombiesurvival/music_win2.ogg"] = 150.0,
 	["zombiesurvival/music_lose.ogg"] = 45.714,
-	["#zombiesurvival/lasthuman2.mp3"] = 165.0,
+	["#zombiesurvival/lasthuman4.mp3"] = 270.0,
 
 	["zombiesurvival/beats/defaulthuman/1.ogg"] = 7.111,
 	["zombiesurvival/beats/defaulthuman/2.ogg"] = 7.111,

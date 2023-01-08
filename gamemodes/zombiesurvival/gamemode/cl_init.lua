@@ -2097,7 +2097,7 @@ function GM:EndRound(winner, nextmap)
 		snd = nil
 	end
 	if snd then
-		timer.Simple(0.5, function() surface_PlaySound(snd) end)
+		timer.Simple(0.5, function() MySelf:EmitSound(snd, 0, 100, 100) end)
 	end
 
 	timer.Simple(5, function()
